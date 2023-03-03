@@ -1,1 +1,0 @@
-# guillermo-garijo.github.io

@@ -11,11 +11,11 @@ function App() {
     <Router>
       <Header />
       <Routes>
-        <Route path="/guillermo-garijo.github.io/" element={<Hero />}/>
-        <Route path="/guillermo-garijo.github.io/about" element={<About />}/>
-        <Route path="/guillermo-garijo.github.io/projects" element={<Projects />}/>
-        <Route path="/guillermo-garijo.github.io/contact" element={<Contact />}/>
-        <Route path="/guillermo-garijo.github.io/projects/pasapalabra" element={<Contact />}/>
+        <Route path="/" element={<Hero />}/>
+        <Route path="/about" element={<About />}/>
+        <Route path="/projects" element={<Projects />}/>
+        <Route path="/contact" element={<Contact />}/>
+        <Route path="/projects/pasapalabra" element={<Contact />}/>
 
       </Routes>
       <Footer />

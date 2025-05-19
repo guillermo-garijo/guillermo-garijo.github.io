@@ -8,9 +8,9 @@ const Header = () => {
       </h1>
       <nav>
         <ul className="flex gap-4">
-          <li><Link to="/guillermo-garijo.github.io/about">About</Link></li>
-          <li><Link to="/guillermo-garijo.github.io/projects">Projects</Link></li>
-          <li><Link to="/guillermo-garijo.github.io/contact">Contact</Link></li>
+          <li><Link to="/about">About</Link></li>
+          <li><Link to="/projects">Projects</Link></li>
+          <li><Link to="/contact">Contact</Link></li>
         </ul>
       </nav>
     </header>

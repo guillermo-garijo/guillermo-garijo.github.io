@@ -1,19 +1,23 @@
-import { Link } from "react-router-dom";
-
 const Pasapalabra = () => {
   return (
-    <header className="flex justify-between items-center p-4 bg-gray-800 text-white">
-      <h1 className="text-2xl font-bold">
-        <Link to ="/guillermo-garijo.github.io/">My Portfolio</Link>
-      </h1>
-      <nav>
-        <ul className="flex gap-4">
-          <li><Link to="/guillermo-garijo.github.io/about">About</Link></li>
-          <li><Link to="/guillermo-garijo.github.io/projects">Projects</Link></li>
-          <li><Link to="/guillermo-garijo.github.io/contact">Contact</Link></li>
-        </ul>
-      </nav>
-    </header>
+    <>
+<main className="flex flex-col items-center justify-center bg-gray-100 p-8 space-y-6">
+        <div className="text-center">
+          <h1 className="text-3xl font-bold text-gray-800">Pasapalabra Nucleo Founders</h1>
+          <p className="mt-2 text-gray-600 max-w-md">
+            An app to add an overlay in OBS for the metings of Nucleo Founders developed in node.js. A twist of the famous Pasapalabra TV show.
+          </p>
+        </div>
+
+        <video
+          controls
+          className="w-[300px] rounded-lg shadow-lg"
+        >
+          <source src="/videos/pasapalabra.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </main>
+    </>
   );
 };
 

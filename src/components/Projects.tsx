@@ -5,7 +5,8 @@ const projects = [
   { title: "Pasapalabra", description: "A custom overlay for OBS of the famous Pasapalabra TV show.", link: "/projects/pasapalabra" },
   { title: "Bodega las Candelas", description: "Custom web page for the restaurant Bodega las Candelas.", link: "https://bodegalascandelas.com/" },
   { title: "fsutils", description: "Utility to read EXT2 and FAT16 filesystems.", link: "https://github.com/guillermo-garijo/fsutils" },
-  { title: "Sins Of The Forgotten", description: "Unreal Engine 5 psychological terror game.", link: "/projects/sins" }
+  { title: "Sins Of The Forgotten", description: "Unreal Engine 5 psychological terror game.", link: "/projects/sins" },
+  { title: "IL2CPP metadata protection", description: "Reverse engineering write-up: extracting an encrypted, embedded global-metadata.dat from a Unity IL2CPP game.", link: "https://guillermo-garijo.github.io/reports/il2cpp-metadata.pdf" }
 ];
 
 const Projects = () => {
